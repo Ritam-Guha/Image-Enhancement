@@ -1,4 +1,4 @@
-function [fitness] = Ackley(agent,list)
+function [fitness] = evaluate(agent,list)
     global grayImg;
     agent = sort(agent);
     newImg = enhanceImage(agent);    
