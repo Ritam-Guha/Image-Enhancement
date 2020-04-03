@@ -1,3 +1,5 @@
+% function to restore killed preys according to the flow of SHO
+
 function [H, f_h] = Restoration(H,f_h,SV_h,L_idx,K_idx,n,f,list)
     alive_H=H(L_idx,:);
     alive_SVh=SV_h(L_idx); 
