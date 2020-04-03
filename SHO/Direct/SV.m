@@ -1,3 +1,5 @@
+% function to create survival values of both preys and predators
+
 function [SV_h, SV_p] = SV(bfit,wfit,f_h,f_p)
     SV_h=(f_h-wfit)./(bfit-wfit);%element by element division
     SV_p=(f_p-wfit)./(bfit-wfit);
