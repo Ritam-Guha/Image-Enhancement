@@ -1,3 +1,5 @@
+% function to evaluate the quality of a candidate solution
+
 function [fitness] = evaluate(agent)
     
     global grayImg;
