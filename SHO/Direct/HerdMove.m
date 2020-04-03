@@ -1,3 +1,5 @@
+% function guiding the movement of the selfish herds
+
 function [H] = HerdMove(H,SV_h,P,SV_p,xbest,n,xl,xu)
     scale=abs(xu-xl);
     hL_idx=find(SV_h == max(SV_h));
