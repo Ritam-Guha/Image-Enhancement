@@ -1,3 +1,5 @@
+% function to form the new enhanced image based on the transformation function
+
 function [newImg] = enhanceImage(grayImg,finalAgent)    
   %  finalAgent = sort(finalAgent);    
     [rows,cols]=size(grayImg);
