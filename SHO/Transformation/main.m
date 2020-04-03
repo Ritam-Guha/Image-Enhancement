@@ -13,12 +13,13 @@ function[] = main(datasetName,typeImg,numAgents,numIteration,list,count)
     
     I = rgb2gray(rgbImg);
     
-	[iEnhanced,x]= sho1(I,numAgents,numIteration,@Ackley,list);
+    [iEnhanced,x]= sho1(I,numAgents,numIteration,@Ackley,list);
+    
     rI = rgbImg(:,:,1);
     gI = rgbImg(:,:,2);
     bI = rgbImg(:,:,3);
     
-	r=enhanceImage(rI,x);
+    r=enhanceImage(rI,x);
     g=enhanceImage(gI,x);
     b=enhanceImage(bI,x);
 	
