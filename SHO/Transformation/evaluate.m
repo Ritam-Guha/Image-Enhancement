@@ -1,14 +1,16 @@
-function [fitness] = Ackley(agent,list)
+  
+% function to check the quality of a candidate solution
+
+function [fitness] = evaluate(agent,list)
     global grayImg;
-  %  agent = sort(agent);
+ 
     newImg = enhanceImage(agent);    
     edgeImg=edge(newImg,'Canny');    
     logSumIntensity=getLogSumIntensity(newImg,edgeImg);
     edgeSum=getEdgeSum(edgeImg);
     imgEntropy=getEntropy(newImg);
     dissimilarity=getDissimilarity(grayImg,newImg);
-    %contrast=getContrastValue(newImg);
-    %intensityDif=getIntensityDif(newImg);
+
     fitness=1;
     for i=1:length(list)
         if list(i) == 1
