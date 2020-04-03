@@ -15,9 +15,9 @@ function[] = main(datasetName,typeImg,numAgents,numIteration,list,count)
     gImg = rgbImg(:,:,2);
     bImg = rgbImg(:,:,3);
     
-    rEnhanced = sho1(rImg,numAgents,numIteration,@Ackley,list);
-    gEnhanced = sho1(gImg,numAgents,numIteration,@Ackley,list);
-    bEnhanced = sho1(bImg,numAgents,numIteration,@Ackley,list);
+    rEnhanced = sho(rImg,numAgents,numIteration,@Ackley,list);
+    gEnhanced = sho(gImg,numAgents,numIteration,@Ackley,list);
+    bEnhanced = sho(bImg,numAgents,numIteration,@Ackley,list);
     
     finalImg(:,:,1) = rEnhanced;
     finalImg(:,:,2) = gEnhanced;
