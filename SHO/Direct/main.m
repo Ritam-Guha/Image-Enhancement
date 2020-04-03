@@ -1,9 +1,9 @@
- %datasetName: Name of the input image
- %typeImg: Extension of the image(.png/.jpg/.jpeg)
- %numAgents: population size
- %numIteration: num of generations
- %list: list of image parameters to be used for fitness function (log sum intensity-1, edge count-2, image entropy-3, dissimilarity-4)
- %count: count of the current run
+ % datasetName: Name of the input image
+ % typeImg: Extension of the image(.png/.jpg/.jpeg)
+ % numAgents: population size
+ % numIteration: num of generations
+ % list: list of image parameters to be used for fitness function (log sum intensity-1, edge count-2, image entropy-3, dissimilarity-4)
+ % count: count of the current run
     
 function[] = main(datasetName,typeImg,numAgents,numIteration,list,count)    
     
