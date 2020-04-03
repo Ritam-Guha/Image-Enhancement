@@ -1,3 +1,5 @@
+% function guiding the movement of the predators
+
 function [P] = PredMove(P,H,SV_h,n,xl,xu)
     for i = 1:size(P,1)
         move=(H(rws((1-SV_h)'),:)-P(i,:));
