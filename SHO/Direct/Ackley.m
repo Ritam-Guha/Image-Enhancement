@@ -7,9 +7,7 @@ function [fitness] = Ackley(agent,list)
     edgeSum=getEdgeSum(edgeImg);
     imgEntropy=getEntropy(newImg);
     dissimilarity=getDissimilarity(grayImg,newImg);        
-    %contrast=getContrastValue(newImg);
-    %intensityDif=getIntensityDif(newImg);
-%     fprintf('sumInten-%f edgeSum-%f entropy-%f intensityDif-%f contrast-%f\n',logSumIntensity,edgeSum,imgEntropy,intensityDif,contrast);
+  
     fitness=1;
     for i=1:length(list)
         if list(i) == 1
