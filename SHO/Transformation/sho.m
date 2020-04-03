@@ -1,3 +1,5 @@
+% Selfish Herd Optimizer function
+
 function [finalImg,xbest] = sho1(inputImg,N,iter,f,list) % n-no of population,iter-no of iterations, f-fitness function
     close all
     
