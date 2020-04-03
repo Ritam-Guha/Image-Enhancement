@@ -1,3 +1,5 @@
+% function to form the new enhanced image based on the optimized intenstiy values
+
 function [newImg] = enhanceImage(finalAgent)
     
     global grayImg baseAgent
