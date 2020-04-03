@@ -1,3 +1,5 @@
+% function to create random initial population
+
 function [population] = dataCreate(numAgents, numIntensities)        
     rng('shuffle');
     alpha_l=0.01;
