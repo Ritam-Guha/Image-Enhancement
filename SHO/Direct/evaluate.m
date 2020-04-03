@@ -1,3 +1,5 @@
+% function to check the quality of a candidate solution
+
 function [fitness] = evaluate(agent,list)
     global grayImg;
     agent = sort(agent);
