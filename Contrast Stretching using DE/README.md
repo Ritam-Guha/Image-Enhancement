@@ -10,7 +10,7 @@ maxiter: maximum number of generations
 mutation: mutation rate in DE
 
 ## Running the Code
-Set the image path properly
+Set the image path properly (Sample images are provided in Data folder)
 Adjust and tune the parameters in the code
 Interactive python users: load the ICE_DE.ipynb file to a interactive python platform
 Non-interactive python users: Run the ICE_DE.py file
