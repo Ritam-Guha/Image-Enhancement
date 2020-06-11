@@ -119,7 +119,7 @@ def obj_function(x=[0,0,0], img=None ,stretch='no'):
 
 # In[476]:
 
-img_PATH = 'uwater02.jpeg' # Mention the path of the input image
+img_PATH = 'Data/uwater02.jpeg' # Mention the path of the input image
 input_img = Image.open(img_PATH)
 input_img_arr = np.array(input_img)
 print('Initial objective value: ',-obj_function(img=input_img_arr))
