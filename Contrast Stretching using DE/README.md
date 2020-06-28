@@ -5,15 +5,15 @@ Code to perform Image Enhancement
 ### Paper reference: Güraksin, Gür Emre, Utku Köse, and Ömer Deperlıoğlu. "Underwater image enhancement based on contrast adjustment via differential evolution algorithm." 2016 International Symposium on INnovations in Intelligent SysTems and Applications (INISTA). IEEE, 2016.
 
 ## Parameters
-popsize: population size for Differential Evolution algorithm
-maxiter: maximum number of generations
-mutation: mutation rate in DE
+popsize: population size for Differential Evolution algorithm\
+maxiter: maximum number of generations\
+mutation: mutation rate in DE\
 
 ## Running the Code
-Set the image path properly (Sample images are provided in Data folder)
-Adjust and tune the parameters in the code
-Interactive python users: load the ICE_DE.ipynb file to a interactive python platform
-Non-interactive python users: Run the ICE_DE.py file
+Set the image path properly (Sample images are provided in Data folder)\
+Adjust and tune the parameters in the code\
+Interactive python users: load the ICE_DE.ipynb file to a interactive python platform\
+Non-interactive python users: Run the ICE_DE.py file\
 
 ## Algorithmic Description
 To understand the entire concept of this algorithm, please refer to: [Paper](https://ieeexplore.ieee.org/abstract/document/7571849)
